@@ -1,0 +1,43 @@
+{
+  "name": "Butterfly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "susy": "^2.2.12",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-cleanup-plugin": "^0.4.1",
+    "webpack-combine-loaders": "^2.0.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "prod-build": "./node_modules/.bin/webpack --config webpack.production.config.js --progress --watch --profile --colors",
+    "dev-server": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
+    "dev-build": "./node_modules/.bin/webpack --progress --colors --watch --devtool source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
