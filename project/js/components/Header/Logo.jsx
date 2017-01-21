@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import styles from './header.scss';
+import styles from './header.css';
 
 class Logo extends Component {
 
     render() {
         return (
-            <a className={styles.logo} target="_blank" href="http://www.google.com">{}</a>
+            <a className={styles.logo} target="_blank" href="http://support.butterfly.ai/">{}</a>
         );
     }
 

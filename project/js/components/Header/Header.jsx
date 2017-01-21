@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 
-import styles from './header.scss';
-import grid from './app.scss';
+import grid from '../app.scss';
+import styles from './header.css';
 
 import Logo from './Logo';
 
@@ -9,9 +10,9 @@ class Header extends Component {
 
     render() {
         return (
-            <header>
+            <header className={styles.banner}>
                 <div className={grid.leftsidebar}><Logo /></div>
-                <div className={grid.content}>nag poke worry <span className={styles.redBg}>GRUMP!!</span></div>
+                <div className={classNames(grid.content, styles.headline)}>Butterfly, Inc.</div>
             </header>
         );
     }

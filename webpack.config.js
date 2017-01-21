@@ -38,7 +38,7 @@ loaders.push({
 
 module.exports = {
 	entry: [
-		'./project/js/client.js' // your app's entry point
+		'./project/js/client.jsx'
 	],
 	devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
 	output: {

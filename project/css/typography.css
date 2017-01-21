@@ -1,0 +1,31 @@
+.large-text {
+    font-size: 18px;
+}
+
+.med-text {
+    font-size: 14px;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.smallest-text {
+    font-size: 9px;
+}
+
+.bold-weight {
+    font-weight: bold;
+}
+
+.light-weight {
+    font-weight: 200;
+}
+
+.sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
