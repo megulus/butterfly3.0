@@ -1,0 +1,155 @@
+
+.qnBox {
+    composes: dark-grn-bkgrnd from '../../../css/colors.css';
+    composes: rounded-corners from '../../../css/layout.css';
+    composes: center from '../../../css/typography.css';
+}
+
+.banner {
+    position: relative;
+    height: 35px;
+    composes: med-grn-bkgrnd from '../../../css/colors.css';
+}
+
+.bannerBase {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 2px;
+    composes: lt-grn-bkgrnd from '../../../css/colors.css';
+    composes: white-text from '../../../css/colors.css';
+    composes: rounded-corners-top from '../../../css/layout.css';
+    composes: center from '../../../css/typography.css';
+    composes: small-text from '../../../css/typography.css';
+}
+
+.triangle {
+    background-image: url('./images/Triangle.png');
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: 3px;
+    left: 47.5%;
+}
+
+.subBanner {
+    composes: lt-grn-text from '../../../css/colors.css';
+    composes: top-padding from '../../../css/layout.css';
+    composes: center from '../../../css/typography.css';
+    composes: bold-weight from '../../../css/typography.css';
+}
+
+.box {
+    width: auto;
+    composes: top-spacer-sm bottom-spacer-sm from '../../../css/layout.css';
+    composes: right-spacer-sm left-spacer-sm from '../../../css/layout.css';
+    composes: top-padding bottom-padding from '../../../css/layout.css';
+    composes: left-padding right-padding from '../../../css/layout.css';
+    composes: rounded-corners from '../../../css/layout.css';
+    composes: center from '../../../css/typography.css';
+}
+
+.question {
+    composes: white-bkgrnd from '../../../css/colors.css';
+    composes: dark-grey-text from '../../../css/colors.css';
+    composes: bold-weight from '../../../css/typography.css';
+    composes: box;
+}
+
+.addlInput {
+    composes: lt-grn-bkgrnd from '../../../css/colors.css';
+    composes: white-text from '../../../css/colors.css';
+    composes: bold-weight from '../../../css/typography.css';
+    composes: box;
+}
+
+.legend {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    composes: lt-grey-text from '../../../css/colors.css';
+    composes: small-text from '../../../css/typography.css';
+}
+
+.legendRight {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.legendLeft {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.btnActive {
+    background-image: url('../Button/images/ButtonActive.png');
+    display: inline-block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 200px;
+    height: 48px;
+}
+
+.btnInactive {
+    background-image: url('../Button/images/ButtonInactive.png');
+    display: inline-block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 200px;
+    height: 48px;
+}
+
+textarea {
+    width: 95%;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: left;
+    border: 1px solid #c3c3c3;
+    resize: none;
+    margin-top: 10px;
+    color: #474747;
+}
+
+textarea::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 10px;
+}
+
+textarea:-moz-placeholder {
+    text-align: center;
+    font-size: 10px;
+}
+
+textarea::-moz-placeholder {
+    text-align: center;
+    font-size: 10px;
+}
+
+textarea:-ms-input-placeholder {
+    text-align: center;
+    font-size: 10px;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
-import grid from '../app.scss';
+import grid from '../../../scss/app.scss';
 import styles from './header.css';
 
 import Logo from './Logo';

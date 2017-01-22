@@ -55,7 +55,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.NoErrorsPlugin(),
-		new webpack.HotModuleReplacementPlugin(),
+		//new webpack.HotModuleReplacementPlugin(),
 		new HtmlWebpackPlugin({
 			template: './project/template.html'
 		}),

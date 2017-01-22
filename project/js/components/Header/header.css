@@ -10,45 +10,16 @@
 }
 
 .banner {
-    /*position: relative;*/
     height: 46px;
     composes: dark-grn-bkgrnd from '../../../css/colors.css';
     composes: bottom-spacer from '../../../css/layout.css';
 }
 
 .headline {
-    /*position: absolute;*/
-    /*padding: 0;
-    margin: 0;*/
-    /*top: 25%;*/
     composes: white-text from '../../../css/colors.css';
     composes: top-spacer-med from '../../../css/layout.css';
     composes: sans from '../../../css/typography.css';
-    /*composes: center from '../../../css/typography.css';*/
     composes: large-text from '../../../css/typography.css';
 }
 
-/*
-@media screen and (min-width: 980px) {
-    .headline {
-        right: 25%;
-    }
-}
 
-@media screen and (min-width: 650px) and (max-width: 979px) {
-    .headline {
-        right: 42%;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 649px) {
-    .headline {
-        right: 40%;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .headline {
-        right: 37.5%;
-    }
-}*/
