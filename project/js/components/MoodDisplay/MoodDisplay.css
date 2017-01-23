@@ -1,6 +1,3 @@
-.moodDisplayContnr {
-    /*composes: center from '../../../css/typography.css';*/
-}
 
 .smileyBoxLg {
     display: inline-block;
@@ -30,7 +27,6 @@
     composes: left-spacer-med right-spacer-med from '../../../css/layout.css';
     composes: top-padding left-padding right-padding from '../../../css/layout.css';
     composes: rounded-corners from '../../../css/layout.css';
-    /*composes: center from '../../../css/typography.css';*/
 }
 
 .moodText {
@@ -46,7 +42,6 @@
 .moodSelectorBanner {
     composes: med-grey-text from '../../../css/colors.css';
     composes: top-spacer from '../../../css/layout.css';
-    /*composes: center from '../../../css/typography.css';*/
     composes: bold-weight from '../../../css/typography.css';
 }
 

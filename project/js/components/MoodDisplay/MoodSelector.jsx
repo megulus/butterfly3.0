@@ -6,7 +6,6 @@ import Smiley from './Smiley';
 
 import {setMood} from '../../actions/moodActions';
 
-import grid from '../../../scss/app.scss';
 import styles from './MoodDisplay.css';
 
 @connect((store) => {
@@ -41,7 +40,6 @@ class MoodSelector extends Component {
         }
         return (
             <div>
-                {/*<div className={grid.left}></div>*/}
                 <div className={styles.moodSelectorBox}>
                     <div className={styles.moodSelectorBanner}>
                         Did you make a mistake? Please select your correct mood:
