@@ -2,7 +2,6 @@
 .qnBox {
     composes: dark-grn-bkgrnd from '../../../css/colors.css';
     composes: rounded-corners from '../../../css/layout.css';
-    composes: center from '../../../css/typography.css';
 }
 
 .banner {
@@ -21,7 +20,6 @@
     composes: lt-grn-bkgrnd from '../../../css/colors.css';
     composes: white-text from '../../../css/colors.css';
     composes: rounded-corners-top from '../../../css/layout.css';
-    composes: center from '../../../css/typography.css';
     composes: small-text from '../../../css/typography.css';
 }
 
@@ -37,10 +35,13 @@
     left: 47.5%;
 }
 
+.bannerText {
+    margin-top: 2px;
+}
+
 .subBanner {
     composes: lt-grn-text from '../../../css/colors.css';
     composes: top-padding from '../../../css/layout.css';
-    composes: center from '../../../css/typography.css';
     composes: bold-weight from '../../../css/typography.css';
 }
 
@@ -51,7 +52,6 @@
     composes: top-padding bottom-padding from '../../../css/layout.css';
     composes: left-padding right-padding from '../../../css/layout.css';
     composes: rounded-corners from '../../../css/layout.css';
-    composes: center from '../../../css/typography.css';
 }
 
 .question {

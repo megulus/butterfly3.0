@@ -24,8 +24,7 @@
 .moodSelectorBox {
     composes: white-bkgrnd from '../../../css/colors.css';
     composes: top-spacer bottom-spacer  from '../../../css/layout.css';
-    composes: left-spacer-med right-spacer-med from '../../../css/layout.css';
-    composes: top-padding left-padding right-padding from '../../../css/layout.css';
+    composes: top-padding from '../../../css/layout.css';
     composes: rounded-corners from '../../../css/layout.css';
 }
 
@@ -59,9 +58,43 @@
 .smileySm {
     display: inline-block;
     -webkit-background-size: cover;
-    height: 70px;
-    width: 70px;
     vertical-align: middle;
+}
+
+@media screen and (min-width: 1320px) {
+    .smileySm {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1319px) {
+    .smileySm {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1269px) {
+    .smileySm {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 649px) {
+    .smileySm {
+        height: 55px;
+        width: 55px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 339px) {
+    .smileySm {
+        height: 50px;
+        width: 50px;
+    }
 }
 
 .one {

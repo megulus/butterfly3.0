@@ -38,14 +38,14 @@ class AppView extends Component {
             ?   <Submitted />
             :   <div>
                     <MoodDisplay />
-                    {/*<QuestionContainer/>*/}
+                    <QuestionContainer/>
                 </div>;
 
         return (
             <div className={classNames(grid.containerElement, style.appBackground)} >
                 <Header />
                 {mainContent}
-                <Footer />
+                {/*<Footer />*/}
             </div>
         );
     }

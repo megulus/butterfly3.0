@@ -10,7 +10,7 @@ class BoxBanner extends Component {
                 <div className={styles.banner}>
                     <div className={styles.triangle}></div>
                     <div className={styles.bannerBase}>
-                        <p>Your answers will always remain anonymous</p>
+                        <p className={styles.bannerText}>Your answers will always remain anonymous</p>
                     </div>
                 </div>
             </div>

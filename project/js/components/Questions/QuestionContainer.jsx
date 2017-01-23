@@ -8,6 +8,7 @@ import BoxBanner from './BoxBanner';
 import Button from '../Button/Button';
 import Question from './Question';
 
+import grid from '../../../scss/app.scss';
 import styles from './Questions.css'
 
 
@@ -37,9 +38,8 @@ class QuestionContainer extends Component {
             ? 'active'
             : null;
         return (
-            <div className='row'>
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+            <div>
+                <div className={grid.centerColumn}>
                     <div className={styles.qnBox}>
                         <BoxBanner/>
                         <div className={styles.subBanner}>
