@@ -11,8 +11,8 @@ class Header extends Component {
     render() {
         return (
             <header className={styles.banner}>
-                <div className={grid.leftsidebar}><Logo /></div>
-                <div className={classNames(grid.content, styles.headline)}>Butterfly, Inc.</div>
+                <div className={grid.headersidebar}><Logo /></div>
+                <div className={classNames(grid.headermain, styles.headline)}>Butterfly, Inc.</div>
             </header>
         );
     }
