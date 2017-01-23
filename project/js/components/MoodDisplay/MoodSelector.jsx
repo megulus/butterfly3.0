@@ -41,8 +41,8 @@ class MoodSelector extends Component {
         }
         return (
             <div>
-                <div className={grid.leftsidebar}></div>
-                <div className={classNames(styles.moodSelectorBox)}>
+                {/*<div className={grid.left}></div>*/}
+                <div className={styles.moodSelectorBox}>
                     <div className={styles.moodSelectorBanner}>
                         Did you make a mistake? Please select your correct mood:
                     </div>

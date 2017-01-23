@@ -2,11 +2,14 @@
 
 
 $susy: (columns: 12,
-        container: 1120px,
+        /*container: 1120px,*/
+        /*column-width: 5em,*/
+        //gutter-width: 1em,
+        //grid-padding: gutter-width,
         global-box-sizing: border-box,
-        use-custom: (
-          clearfix: true,
-        )
+        /*use-custom: (
+          susy-clearfix: true,
+        )*/
 );
 
 @include border-box-sizing;
@@ -36,7 +39,25 @@ $susy: (columns: 12,
   @include span(4 of 12 at 5);
 }
 
+.centerColumn {
+  @include prefix(4 of 12);
+  @include suffix(4 of 12);
+  text-align: center;
+}
+
+/*
 .threeColumns {
   @include susy-clearfix;
-  .gridItem {}
-}
+  .left {
+    @include columns(4);
+    @include alpha;
+  }
+  .center {
+    @include columns(4);
+    text-align: center;
+  }
+  .right {
+    @include columns(4);
+    @include omega;
+  }
+}*/

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import classNames from 'classnames';
 
 import { setMood } from '../../actions/moodActions';
 import { setQuestions } from '../../actions/questionsActions';
@@ -41,7 +42,7 @@ class AppView extends Component {
                 </div>;
 
         return (
-            <div className={grid.containerElement, style.appBackground} >
+            <div className={classNames(grid.containerElement, style.appBackground)} >
                 <Header />
                 {mainContent}
                 <Footer />

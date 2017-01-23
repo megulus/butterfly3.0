@@ -25,9 +25,9 @@ class MoodDisplay extends Component {
                 </div>
             : <MoodSelector/>;
         return (
-            <div className={grid.threeColumns}>
-                <div className={grid.gridItem}></div>
-                <div className={grid.gridItem}>
+            <div>
+                {/*<div className={grid.left}></div>*/}
+                <div className={grid.centerColumn}>
                     {moodContent}
                 </div>
             </div>
