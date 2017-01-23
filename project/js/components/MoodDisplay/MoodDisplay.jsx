@@ -26,7 +26,6 @@ class MoodDisplay extends Component {
             : <MoodSelector/>;
         return (
             <div>
-                {/*<div className={grid.left}></div>*/}
                 <div className={grid.centerColumn}>
                     {moodContent}
                 </div>
