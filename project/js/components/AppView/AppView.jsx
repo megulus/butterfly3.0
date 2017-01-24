@@ -45,7 +45,7 @@ class AppView extends Component {
             <div className={classNames(grid.containerElement, style.appBackground)} >
                 <Header />
                 {mainContent}
-                {/*<Footer />*/}
+                <Footer />
             </div>
         );
     }
