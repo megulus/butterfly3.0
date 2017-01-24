@@ -19,15 +19,12 @@ loaders.push({
 	exclude: /(node_modules|bower_components|public\/)/,
 	loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass')
 });
-/*// global css files
-loaders.push({
-	test: /[\/\\](node_modules|global)[\/\\].*\.css$/,
-	loader: ExtractTextPlugin.extract('style', 'css')
-});*/
+
 
 module.exports = {
 	entry: [
-		'./project/js/client.js'
+		'babel-polyfill',
+		'./project/js/client.jsx'
 	],
 	output: {
 		publicPath: '/',
@@ -57,11 +54,10 @@ module.exports = {
 		}),
 		new webpack.optimize.OccurenceOrderPlugin(),
 		new ExtractTextPlugin('[contenthash].css', {
-			allChunks: true
+			allChunks: false,
 		}),
 		new HtmlWebpackPlugin({
 			template: './project/template.html',
-			//title: 'Webpack App'
 		}),
 		new webpack.optimize.DedupePlugin()
 	]

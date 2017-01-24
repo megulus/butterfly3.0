@@ -11,13 +11,13 @@
 
 .banner {
     height: 46px;
+    margin-bottom: 15px;
     composes: dark-grn-bkgrnd from '../../../css/colors.css';
-    composes: bottom-spacer from '../../../css/layout.css';
 }
 
 .headline {
+    margin-top: 10px;
     composes: white-text from '../../../css/colors.css';
-    composes: top-spacer-med from '../../../css/layout.css';
     composes: sans from '../../../css/typography.css';
     composes: large-text from '../../../css/typography.css';
 }
