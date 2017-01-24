@@ -49,11 +49,11 @@ Navigate to: localhost:8080
 
 ## Tools
 
-React
-Redux
-Webpack/Webpack-dev-server
-CSS Modules
-Susy
+- React
+- Redux
+- Webpack/Webpack-dev-server
+- CSS Modules
+- Susy
 
 
 
