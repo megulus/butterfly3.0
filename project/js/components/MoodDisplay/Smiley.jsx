@@ -17,13 +17,4 @@ class Smiley extends Component {
 }
 
 
-
-
-Smiley.propTypes = {
-    moodClass: PropTypes.string,
-    small: PropTypes.bool
-};
-
-
-
 export default Smiley

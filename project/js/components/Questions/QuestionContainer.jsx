@@ -50,7 +50,7 @@ class QuestionContainer extends Component {
                             <p>Anything to add?</p>
                             <AnswerInput type="extra"/>
                         </div>
-                        <div onClick={this.submit.bind(this)} className="row">
+                        <div onClick={this.submit.bind(this)}>
                             <Button active={buttonProps} />
                         </div>
                     </div>
