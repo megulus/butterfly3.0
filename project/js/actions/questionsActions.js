@@ -35,13 +35,6 @@ export function setUserRating(qnNumber, rating) {
 }
 
 
-export function ratingChange() {
-    return {
-        type: 'RATING_CHANGE',
-        payload: 1,
-    }
-}
-
 
 export function unsetTmpRating() {
     return {

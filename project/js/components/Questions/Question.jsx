@@ -13,7 +13,6 @@ import styles from './Questions.css';
 @connect((store) => {
     return {
         ratings: store.questions.userRatings,
-        ratingChanges: store.questions.ratingChanges,
     }
 })
 

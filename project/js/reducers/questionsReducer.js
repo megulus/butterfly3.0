@@ -8,7 +8,6 @@ function reducer(state={
         3: null,
         4: null,
     },
-    ratingChanges: 0,
     userTmpRatings: {},
     userAnswers: {},
     userAdditionalInput: '',
@@ -25,9 +24,9 @@ function reducer(state={
         }
 
         case 'SET_RATING': {
-            let tempRatings = state.userRatings;
+            let tempRatings = {...state.userRatings};
             tempRatings[action.payload[0]] = action.payload[1];
-            let ratingsValues = (Object.values(state.userRatings));
+            let ratingsValues = (Object.values(tempRatings));
             let ratingsNull = ratingsValues.filter((value) => {
                 return value === null;
             });
@@ -37,14 +36,6 @@ function reducer(state={
                 userRatings: tempRatings,
                 userTmpRatings: {},
                 allRatingsSet: ratingsSet,
-            }
-        }
-
-        case 'RATING_CHANGE': {
-            let count = state.ratingChanges + action.payload;
-            return {
-                ...state,
-                ratingChanges: count,
             }
         }
 

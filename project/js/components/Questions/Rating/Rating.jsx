@@ -4,8 +4,7 @@ import { connect } from 'react-redux';
 import {
     setUserRating,
     unsetTmpRating,
-    setTmpRating,
-    ratingChange } from '../../../actions/questionsActions';
+    setTmpRating, } from '../../../actions/questionsActions';
 import { checkIfSubmissible } from '../../../actions/submissionActions';
 
 import styles from '../../Questions/Rating/Rating.css';
@@ -29,7 +28,6 @@ class Rating extends Component {
 
     setRating(rating) {
         this.props.dispatch(setUserRating(this.props.qnNumber, rating));
-        this.props.dispatch(ratingChange());
         this.props.dispatch(checkIfSubmissible());
      }
 
