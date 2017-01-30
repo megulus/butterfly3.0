@@ -21,19 +21,19 @@ $susy: (columns: 12,
 }
 
 .centerColumn {
-  @include susy-breakpoint(1070px) {
+  @include susy-breakpoint(1300px) {
     @include prefix(4 of 12);
     @include suffix(4 of 12);
   }
-  @include susy-breakpoint(960px 1069px) {
+  @include susy-breakpoint(960px 1299px) {
     @include prefix(3 of 12);
     @include suffix(3 of 12);
   }
-  @include susy-breakpoint(560px 959px) {
+  @include susy-breakpoint(760px 959px) {
     @include prefix(2 of 12);
     @include suffix(2 of 12);
   }
-  @include susy-breakpoint(300px 559px) {
+  @include susy-breakpoint(300px 759px) {
     @include span(12);
   }
   text-align: center;
