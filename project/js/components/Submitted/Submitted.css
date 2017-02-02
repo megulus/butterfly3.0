@@ -2,9 +2,9 @@
     min-height: 80vh;
     composes: white-text from '../../../css/colors.css';
     composes: top-spacer-xlg from '../../../css/layout.css';
+    composes: sans from '../../../css/typography.css';
     composes: bold-weight from '../../../css/typography.css';
-    composes: center from '../../../css/typography.css';
-    composes: large-text from '../../../css/typography.css';
+    composes: xlarge-text from '../../../css/typography.css';
 }
 
 .banner {
