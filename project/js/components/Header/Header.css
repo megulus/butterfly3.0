@@ -17,9 +17,9 @@
 
 .headline {
     margin-top: 10px;
+    font-size: 22px;
     composes: white-text from '../../../css/colors.css';
     composes: sans from '../../../css/typography.css';
-    composes: large-text from '../../../css/typography.css';
 }
 
 
