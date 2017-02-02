@@ -45,6 +45,8 @@
 .moodSelectorBanner {
     composes: med-grey-text from '../../../css/colors.css';
     composes: top-spacer from '../../../css/layout.css';
+    composes: sans from '../../../css/typography.css';
+    composes: normal-text from '../../../css/typography.css';
     composes: bold-weight from '../../../css/typography.css';
 }
 
