@@ -84,13 +84,13 @@
 
 .legendRight {
     position: absolute;
-    top: 10px;
+    top: 12.5%;
     right: 7px;
 }
 
 .legendLeft {
     position: absolute;
-    top: 10px;
+    top: 12.5%;
     left: 7px;
 }
 

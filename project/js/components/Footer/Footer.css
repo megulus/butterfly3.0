@@ -1,10 +1,13 @@
 .footer {
+    min-height: 10vh;
     composes: white-text from '../../../css/colors.css';
+    composes: top-spacer-xlg from '../../../css/layout.css';
+    composes: bottom-padding from '../../../css/layout.css';
+    composes: sans from '../../../css/typography.css';
     composes: small-text from '../../../css/typography.css';
     composes: light-weight from '../../../css/typography.css';
 }
 
 .link {
     composes: lt-grn-text from '../../../css/colors.css';
-    composes: small-text from '../../../css/typography.css';
 }
