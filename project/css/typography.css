@@ -26,8 +26,16 @@
     font-weight: 200;
 }
 
-.sans {
+.normal-weight {
+    font-weight: 400;
+}
+
+/*.sans-light {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}*/
+
+.sans {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 

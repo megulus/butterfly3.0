@@ -18,9 +18,7 @@
     height: 20px;
     padding-top: 2px;
     composes: lt-grn-bkgrnd from '../../../css/colors.css';
-    composes: white-text from '../../../css/colors.css';
     composes: rounded-corners-top from '../../../css/layout.css';
-    composes: small-text from '../../../css/typography.css';
 }
 
 .triangle {
@@ -36,13 +34,16 @@
 }
 
 .bannerText {
-    margin-top: 2px;
+    margin-top: 1px;
+    composes: white-text from '../../../css/colors.css';
+    composes: sans from '../../../css/typography.css';
+    composes: small-text from '../../../css/typography.css';
 }
 
 .subBanner {
     composes: lt-grn-text from '../../../css/colors.css';
-    composes: top-padding from '../../../css/layout.css';
-    composes: bold-weight from '../../../css/typography.css';
+    composes: sans from '../../../css/typography.css';
+    composes: normal-weight from '../../../css/typography.css';
 }
 
 .box {
@@ -50,13 +51,15 @@
     composes: top-spacer-sm bottom-spacer-sm from '../../../css/layout.css';
     composes: right-spacer-sm left-spacer-sm from '../../../css/layout.css';
     composes: top-padding bottom-padding from '../../../css/layout.css';
-    composes: left-padding right-padding from '../../../css/layout.css';
+    composes: left-padding-med right-padding-med from '../../../css/layout.css';
     composes: rounded-corners from '../../../css/layout.css';
 }
 
 .question {
     composes: white-bkgrnd from '../../../css/colors.css';
     composes: dark-grey-text from '../../../css/colors.css';
+    composes: sans from '../../../css/typography.css';
+    composes: med-text from '../../../css/typography.css';
     composes: bold-weight from '../../../css/typography.css';
     composes: box;
 }
@@ -64,6 +67,7 @@
 .addlInput {
     composes: lt-grn-bkgrnd from '../../../css/colors.css';
     composes: white-text from '../../../css/colors.css';
+    composes: sans from '../../../css/typography.css';
     composes: bold-weight from '../../../css/typography.css';
     composes: box;
 }
@@ -73,19 +77,21 @@
     height: 20px;
     width: 100%;
     composes: lt-grey-text from '../../../css/colors.css';
+    composes: bottom-spacer from '../../../css/layout.css';
+    composes: sans from '../../../css/typography.css';
     composes: small-text from '../../../css/typography.css';
 }
 
 .legendRight {
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 7px;
 }
 
 .legendLeft {
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 7px;
 }
 
 .btnActive {
@@ -108,13 +114,13 @@
 
 textarea {
     width: 95%;
-    height: 50px;
+    height: 80px;
     border-radius: 3px;
     font-size: 12px;
     text-align: left;
     border: 1px solid #c3c3c3;
     resize: none;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     color: #474747;
 }
 
