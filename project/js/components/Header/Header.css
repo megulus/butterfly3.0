@@ -11,7 +11,7 @@
 
 .banner {
     height: 46px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     composes: dark-grn-bkgrnd from '../../../css/colors.css';
 }
 
