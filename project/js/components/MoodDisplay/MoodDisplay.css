@@ -30,12 +30,16 @@
 
 .moodText {
     composes: white-text from '../../../css/colors.css';
+    composes: large-text from '../../../css/typography.css';
+    composes: bold-weight from '../../../css/typography.css';
+    composes: sans from '../../../css/typography.css';
 }
 
 .selectedMoodBanner {
     composes: lt-grn-text from '../../../css/colors.css';
-    composes: small-text from '../../../css/typography.css';
+    composes: med-text from '../../../css/typography.css';
     composes: light-weight from '../../../css/typography.css';
+    composes: sans from '../../../css/typography.css';
 }
 
 .moodSelectorBanner {
